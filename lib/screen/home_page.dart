@@ -6,7 +6,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // We only return the scrollable list of cards here
     return SingleChildScrollView(
       padding: const EdgeInsets.all(20),
       child: Column(

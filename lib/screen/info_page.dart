@@ -11,19 +11,18 @@ class _InfoPageState extends State<InfoPage> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.all(30.0), // Padding around the card
+      padding: const EdgeInsets.all(30.0),
       child: Column(
         children: [
-          // This creates the white, rounded card
           Container(
             width: double.infinity,
             padding: const EdgeInsets.all(25.0),
             decoration: BoxDecoration(
-              color: Colors.white, // Pure white for consistency
-              borderRadius: BorderRadius.circular(30), // Matches your home cards
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(30),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.05), // A very soft shadow
+                  color: Colors.black.withOpacity(0.05),
                   blurRadius: 15,
                   offset: const Offset(0, 5),
                 ),
@@ -31,7 +30,6 @@ class _InfoPageState extends State<InfoPage> {
             ),
             child: Column(
               children: [
-                // Top Icon (now blue to match the theme on white)
                 const Icon(Icons.qr_code_scanner_rounded, size: 70, color: Color(0xFF67A4FF)),
                 const SizedBox(height: 15),
                 
@@ -41,7 +39,7 @@ class _InfoPageState extends State<InfoPage> {
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    color: Colors.black87, // Dark text on white background
+                    color: Colors.black87,
                   ),
                 ),
                 
@@ -82,7 +80,7 @@ class _InfoPageState extends State<InfoPage> {
           
           const SizedBox(height: 30),
           
-          // Developer Credit (kept subtle on the gradient background)
+          // Developer
           const Text(
             "Developed by Habil Iman",
             style: TextStyle(color: Colors.white60, fontStyle: FontStyle.italic),

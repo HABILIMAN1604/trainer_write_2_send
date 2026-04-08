@@ -42,12 +42,12 @@ class _MainScreenState extends State<MainScreen> {
                   bottomRight: Radius.circular(30),
                 ),
                 child: Container(
-                  height: 120, // Give it a fixed height to contain the Stack
+                  height: 120,
                   width: double.infinity,
                   color: const Color(0xFF67A4FF),
                   child: Stack(
                     children: [
-                      // Bubble 1 (Top Left)
+                      // Bubble 1
                       Positioned(
                         top: -30,
                         left: -20,
@@ -60,7 +60,7 @@ class _MainScreenState extends State<MainScreen> {
                           ),
                         ),
                       ),
-                      // Bubble 2 (Slightly offset)
+                      // Bubble 2 
                       Positioned(
                         top: 10,
                         left: 40,
@@ -73,7 +73,7 @@ class _MainScreenState extends State<MainScreen> {
                           ),
                         ),
                       ),
-                      // Header Content (Text & Menu)
+                      // Header Content
                       Padding(
                         padding: const EdgeInsets.fromLTRB(20, 40, 20, 20),
                         child: Row(

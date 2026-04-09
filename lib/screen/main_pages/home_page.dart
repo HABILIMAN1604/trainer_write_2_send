@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trainer_write_2_send/components/scan_card.dart';
+import 'package:trainer_write_2_send/screen/sub_pages/new_hire_passover/passover_scanner.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -13,7 +14,14 @@ class HomePage extends StatelessWidget {
           ScanCard(
             title: "New Hire Passover",
             subtitle: "Scan ID to send details via WhatsApp",
-            onScan: () => print("WhatsApp Logic"),
+            onScan: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const PassoverScanner(),
+                ),
+              );
+            },
           ),
           ScanCard(
             title: "New Hire Output",

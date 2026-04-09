@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:trainer_write_2_send/screen/home_page.dart';
-import 'package:trainer_write_2_send/screen/info_page.dart';
-import 'package:trainer_write_2_send/screen/settings_page.dart';
+import 'package:trainer_write_2_send/screen/main_pages/home_page.dart';
+import 'package:trainer_write_2_send/screen/main_pages/info_page.dart';
+import 'package:trainer_write_2_send/screen/main_pages/settings_page.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});

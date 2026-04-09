@@ -13,7 +13,7 @@ class SettingTile extends StatelessWidget {
     required this.title,
     required this.subtitle,
     required this.onTap,
-    this.iconColor = const Color(0xFF67A4FF), // Default theme blue
+    this.iconColor = const Color(0xFF67A4FF),
   });
 
   @override

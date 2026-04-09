@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trainer_write_2_send/screen/main_screen.dart';
+import 'package:trainer_write_2_send/screen/main_pages/main_screen.dart';
 
 
 void main() {

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FQrKhp4HuWc=",
+  "success": true,
+  "projectFilePath": "D:\\SelfProject\\trainer_write_2_send\\backend\\TrainerBackend\\TrainerBackend.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\scalar.aspnetcore\\2.13.20\\scalar.aspnetcore.2.13.20.nupkg.sha512"
+  ],
+  "logs": []
+}

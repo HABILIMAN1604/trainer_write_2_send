@@ -8,8 +8,9 @@ class PassoverScanner extends StatelessWidget {
   Widget build(BuildContext context) {
     return BaseScannerPage(
       title: "New Hire Passover Scanner",
-      onCapture: () => print("Logic for WhatsApp/Passover"),
-      onGalleryTap: () => print("Open Gallery for Passover"),
+      onImageProcessed: (String path) {
+              print("Captured image at: $path");
+      },
     );
   }
 }

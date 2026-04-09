@@ -15,8 +15,8 @@ class CustomHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Hero(
-        tag: 'shared_app_header', // This unique string identifies the "flying" widget
-        child: Material( // Added Material to prevent text-style issues during flight
+        tag: 'shared_app_header',
+        child: Material(
           type: MaterialType.transparency,
           child: ClipRRect(
           borderRadius: const BorderRadius.only(
@@ -93,6 +93,5 @@ class CustomHeader extends StatelessWidget {
         ),
       ),
     );
-
   }
 }

@@ -8,8 +8,9 @@ class OutputScanner extends StatelessWidget {
   Widget build(BuildContext context) {
     return BaseScannerPage(
       title: "New Hire Output Scanner",
-      onCapture: () => print("Logic for Google Form/Output"),
-      onGalleryTap: () => print("Open Gallery for Output"),
+      onImageProcessed: (String path) {
+              print("Captured image at: $path");
+      },
     );
   }
 }

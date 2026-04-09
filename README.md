@@ -5,7 +5,7 @@
 ---
 
 ## 📖 The "Why"
-In the manufacturing sector, digitalization often forces workers to switch from familiar manual methods to inefficient digital typing. For many, typing long lists of trainee names and employee IDs on a small screen is a significant barrier.
+In the manufacturing sector, digitalization often forces workers to switch from familiar manual methods to inefficient digital typing (inefficient for those with less digital knowledge and literacy). For many, typing long lists of trainee names and employee IDs on a small screen is a significant barrier.
 
 **The Solution:** This app allows the user to continue writing their report manually on paper—their most comfortable and efficient method. The app then captures the handwriting, extracts the data using OCR, and formats it into a professional digital report.
 

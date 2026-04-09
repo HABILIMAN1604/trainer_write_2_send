@@ -73,7 +73,7 @@ class SubPageLayout extends StatelessWidget {
                             Text(
                               title,
                               style: const TextStyle(
-                                fontSize: 22,
+                                fontSize: 18,
                                 fontWeight: FontWeight.bold,
                                 color: Colors.white,
                               ),

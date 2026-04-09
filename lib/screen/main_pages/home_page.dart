@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trainer_write_2_send/components/scan_card.dart';
+import 'package:trainer_write_2_send/screen/sub_pages/new_hire_output/output_scanner.dart';
 import 'package:trainer_write_2_send/screen/sub_pages/new_hire_passover/passover_scanner.dart';
 
 class HomePage extends StatelessWidget {
@@ -26,7 +27,14 @@ class HomePage extends StatelessWidget {
           ScanCard(
             title: "New Hire Output",
             subtitle: "Scan production data for Google Form",
-            onScan: () => print("Google Form Logic"),
+                        onScan: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const OutputScanner(),
+                ),
+              );
+            },
           ),
         ],
       ),

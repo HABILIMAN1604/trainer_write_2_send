@@ -7,7 +7,3 @@ public class Trainee
     public string Shift { get; set; } = string.Empty;
 }
 
-public class OcrRequest
-{
-    public string RawText { get; set; } = string.Empty;
-}

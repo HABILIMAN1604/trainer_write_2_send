@@ -7,3 +7,10 @@ public class Trainee
     public string Shift { get; set; } = string.Empty;
 }
 
+public class TrainingReport
+{
+    public string DateJoin { get; set; } = string.Empty;
+    public string TrainingDay { get; set; } = string.Empty;
+    public string Location { get; set; } = string.Empty;
+    public List<Trainee> Trainees { get; set; } = new List<Trainee>();
+}

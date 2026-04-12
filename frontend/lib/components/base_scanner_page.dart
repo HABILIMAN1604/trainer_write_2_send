@@ -85,7 +85,7 @@ class _BaseScannerPageState extends State<BaseScannerPage> {
       print("Extracted Text: ${recognizedText.text}");
       
       // Pass the path back to the parent for future API calls
-      widget.onImageProcessed(_imagePreviewPath!);
+      widget.onImageProcessed(recognizedText.text);
       
       textRecognizer.close();
     } catch (e) {
